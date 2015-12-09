@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;	
+}
+
+.redbox {
+	width: 500px;
+	height: 500px;
+	/*filter: blur(20px);
+	-webkit-filter: blur(2px);*/
+	background-image: url('http://www.pageresource.com/wallpapers/wallpaper/maldiven-beach.jpg');
+	background-size: 100% 100%;
+	transition: all 20s;
+}
+
+.redbox:hover {
+	filter: blur(20px);
+	-webkit-filter: blur(20px);
+}
